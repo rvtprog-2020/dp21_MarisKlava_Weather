@@ -15,4 +15,5 @@ async function getWeather() {
     let coordinates = await getLocation("Riga, Latvia")
     let res = await (await fetch("http://photon.komoot.de/api/?q="+location)).json()
 
+    
 }
