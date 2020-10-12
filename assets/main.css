@@ -1,0 +1,52 @@
+.flexbody {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #2E3440;
+}
+
+.weather {
+    display: flex;
+    margin: auto;
+    background-color: #3B4252;
+    color: #ECEFF4;
+    padding: 48px;
+}
+
+.weatherdata {
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+
+.weather a {
+    font-size: 28px;
+    font-family: "Arial";
+}
+
+.weather #temperature {
+    color: #EBCB8B;
+    font-size: 24px;
+}
+
+.weather #weatherdate {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.searchbox {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #434C5E;
+    outline: none;
+    border-style: none;
+    color: #ECEFF4;
+}
+
+.searchbox::placeholder {
+    color: #D8DEE9;
+}

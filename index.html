@@ -8,9 +8,16 @@
     <title>Document</title>
 </head>
 <body>
-    <a>Weather for {x}</a>
-    <a>{x}°C | {x}°F</a>
-    <a>Sunny</a>
-
+    <div class="flexbody">
+        <div class="weather">
+            <div class="weatherdata">
+                <input class="searchbox" placeholder="Search for location"></input>
+                <a id="location"></a>
+                <a id="temperature">Loading weather...</a>
+                <a id="condition"> </a>
+                <a id="weatherdate"> </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
