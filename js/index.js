@@ -35,7 +35,7 @@ window.addEventListener("load", async function(){
 async function getWeather() {
     return new Promise(async (resolve, reject) => {
         try {
-            let res = await (await fetch("http://wttr.in/?format=j1")).json()
+            let res = await (await fetch("https://wttr.in/?format=j1")).json()
             resolve(res)
         }
         catch (err) {
