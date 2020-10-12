@@ -1,4 +1,4 @@
-# Weather
+# [Weather](https://rvtprog-2020.github.io/dp21_MarisKlava_Weather/)
 A clean looking simplistic frontend for the current weather, made using the [Nord](https://nordtheme.com) color scheme.
 
 
